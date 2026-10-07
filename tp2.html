@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1> Inscription au Club Informatique</h1>
+<h2>Vos informations</h2>
+<form action="">
+    <table>
+   <tr>
+    <td> <label for="nom">Nom</label></td>
+    <td><input type="text" ></td>
+   </tr>
+   <tr>
+    <td><label for="nom">prenom</td>
+    <td><input type="text"></td> 
+   </tr>
+   <tr>
+    <td><label for="nom"> adresse email</td>
+    <td><input type="email"></td>
+   </tr>
+   <tr>
+    <td><label for="nom">Telephone</td>
+    <td><input type="tel"></td>
+   </tr>
+   <tr>
+    <td><label for="nom">mot de passe</td>
+    <td><input type="password"></td>
+   </tr>
+   <tr>
+    <td><label for="nom">date de naissance</td>
+    <td><input type="date"></td>
+   </tr>
+</table>
+<fieldset>
+<legend> Niveau en informatique</legend>
+<table>
+<tr>
+    <td><input type="radio" id="kk"></td>
+    <td> debutant</td>
+</tr>
+<tr>
+    <td><input type="radio" id=""></td>
+    <td>intermediaire</td>
+</tr>
+<tr>
+    <td><input type="radio"></td>
+    <td>avance</td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend> ateliers souhaites</legend>
+<table>
+<tr>
+    <td><input type="checkbox"></td>
+    <td> atelier python
+    </td>
+</tr>
+<tr>
+    <td><input type="checkbox"></td>
+    <td>atelier jeux video</td>
+</tr>
+</table>
+</fieldset>
+<label for="">annee d etudes </label>
+<select name="annee" >
+    <option value="">choisir ..</option>
+    <option value="1">1ere</option>
+    <option value="2">2 eme </option>
+    <option value="3">3 eme </option>
+</select><br> <br>
+ <label for="">motivation</label>
+ <textarea name="tx" id="tx"></textarea> <br> <br>
+<input type="checkbox"> j accepte le reglement du Club <br><br>
+<input type="submit" value="Envoyer">
+<input type="reset" value="reinitialiser"> <br><br>
+<label for="club"> © Club Informatique </label><br> <br>
+<a href="acceuil.html"> Retour a l acceuil</a>
+</form>
+</body>
+</html>
